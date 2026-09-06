@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#05070b"/><stop offset=".58" stop-color="#07121b"/><stop offset="1" stop-color="#100b1d"/>
+  </linearGradient>
+  <linearGradient id="n" x1="0" x2="1"><stop stop-color="#00d9ff"/><stop offset=".5" stop-color="#7c3aed"/><stop offset="1" stop-color="#00d9ff"/></linearGradient>
+  <pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1d2a37" opacity=".4"/></pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="520" rx="28" fill="url(#bg)"/>
+<rect width="1200" height="520" rx="28" fill="url(#g)"/>
+<rect x="0" y="0" width="1200" height="3" fill="url(#n)"/>
+<text x="62" y="74" font-family="ui-monospace,monospace" font-size="13" fill="#688096" letter-spacing="2">GTMDEV / IMMERSIVE SYSTEMS PORTFOLIO</text>
+<text x="62" y="178" font-family="Arial,sans-serif" font-size="76" font-weight="700" fill="#f4f8fb" letter-spacing="-4">ENTER THE</text>
+<text x="62" y="255" font-family="Arial,sans-serif" font-size="76" font-weight="700" fill="#00d9ff" letter-spacing="-4">CONTROL PLANE.</text>
+<text x="64" y="306" font-family="ui-monospace,monospace" font-size="15" fill="#8394a5">THREE.JS • WEBGL • LIVE GITHUB TELEMETRY • INTERACTIVE TERMINAL</text>
+<rect x="62" y="352" width="350" height="62" rx="6" fill="#00d9ff"/>
+<text x="94" y="390" font-family="ui-monospace,monospace" font-size="16" font-weight="700" fill="#001018">LAUNCH IMMERSIVE PORTFOLIO  ↗</text>
+
+<g transform="translate(890 250)">
+  <circle r="122" fill="#07131c" stroke="#00d9ff" opacity=".85"/>
+  <circle r="150" fill="none" stroke="#00d9ff" opacity=".32" stroke-dasharray="9 12">
+    <animateTransform attributeName="transform" type="rotate" values="0;360" dur="13s" repeatCount="indefinite"/>
+  </circle>
+  <ellipse rx="190" ry="62" fill="none" stroke="#7c3aed" opacity=".5" transform="rotate(-24)">
+    <animateTransform attributeName="transform" type="rotate" values="-24;336" dur="18s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse rx="180" ry="48" fill="none" stroke="#00d9ff" opacity=".34" transform="rotate(48)">
+    <animateTransform attributeName="transform" type="rotate" values="48;408" dur="15s" repeatCount="indefinite"/>
+  </ellipse>
+  <circle r="10" fill="#00d9ff" filter="url(#glow)">
+    <animate attributeName="r" values="8;14;8" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="142" cy="-44" r="6" fill="#b79cff" filter="url(#glow)"/>
+  <circle cx="-126" cy="71" r="5" fill="#6ceaff" filter="url(#glow)"/>
+</g>
+<rect x="-180" y="0" width="160" height="520" fill="#00d9ff" opacity=".025"><animate attributeName="x" values="-180;1220" dur="5s" repeatCount="indefinite"/></rect>
+</svg>
