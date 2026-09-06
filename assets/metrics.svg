@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="250" viewBox="0 0 1100 250">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#120d20"/></linearGradient>
+  <linearGradient id="n" x1="0" x2="1"><stop stop-color="#00e5ff"/><stop offset=".5" stop-color="#7c3aed"/><stop offset="1" stop-color="#00e5ff"/></linearGradient>
+  <filter id="g"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1100" height="250" rx="22" fill="url(#bg)" stroke="#263244"/>
+<rect x="0" y="0" width="1100" height="3" fill="url(#n)"/>
+<text x="42" y="48" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" letter-spacing="1.5">PUBLIC GITHUB TELEMETRY / AUTO-UPDATED</text>
+<circle cx="1028" cy="42" r="5" fill="#00e5ff" filter="url(#g)"><animate attributeName="opacity" values="1;.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
+  <g transform="translate(42,84)">
+    <rect width="230" height="98" rx="14" fill="#0a111a" stroke="#164e63"/>
+    <text x="20" y="30" fill="#64748b" font-size="12">PUBLIC REPOS</text>
+    <text x="20" y="72" fill="#f8fafc" font-size="34" font-weight="700">45</text>
+  </g>
+  <g transform="translate(288,84)">
+    <rect width="230" height="98" rx="14" fill="#100d1d" stroke="#4c1d95"/>
+    <text x="20" y="30" fill="#64748b" font-size="12">TOTAL STARS</text>
+    <text x="20" y="72" fill="#f8fafc" font-size="34" font-weight="700">3</text>
+  </g>
+  <g transform="translate(534,84)">
+    <rect width="230" height="98" rx="14" fill="#0a111a" stroke="#164e63"/>
+    <text x="20" y="30" fill="#64748b" font-size="12">FORKS</text>
+    <text x="20" y="72" fill="#f8fafc" font-size="34" font-weight="700">0</text>
+  </g>
+  <g transform="translate(780,84)">
+    <rect width="278" height="98" rx="14" fill="#100d1d" stroke="#4c1d95"/>
+    <text x="20" y="30" fill="#64748b" font-size="12">FOLLOWERS</text>
+    <text x="20" y="72" fill="#f8fafc" font-size="34" font-weight="700">0</text>
+  </g>
+  <text x="42" y="222" fill="#94a3b8" font-size="13">TOP LANGUAGES  /  TypeScript · Python · Shell</text>
+</g>
+<rect x="-180" y="0" width="150" height="250" fill="#00e5ff" opacity=".025">
+  <animate attributeName="x" values="-180;1130" dur="5s" repeatCount="indefinite"/>
+</rect>
+</svg>

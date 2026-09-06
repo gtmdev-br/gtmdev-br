@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06090f"/>
+      <stop offset=".55" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#110b20"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00e5ff"/>
+      <stop offset=".5" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#00e5ff"/>
+      <animate attributeName="x1" values="0;1;0" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;0;1" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#1f2937" stroke-width="1" opacity=".36"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip"><rect width="1200" height="420" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="420" fill="url(#bg)"/>
+    <rect width="1200" height="420" fill="url(#grid)"/>
+    <circle cx="1015" cy="105" r="240" fill="#7c3aed" opacity=".065">
+      <animate attributeName="r" values="220;265;220" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1035" cy="315" r="200" fill="#00e5ff" opacity=".045">
+      <animate attributeName="r" values="180;225;180" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="44" y="38" width="260" height="34" rx="17" fill="#0d1117" stroke="#223044"/>
+    <circle cx="66" cy="55" r="5" fill="#00e5ff" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;.28;1" dur="1.7s" repeatCount="indefinite"/>
+    </circle>
+    <text x="82" y="60" fill="#93a4b8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" letter-spacing="1.2">GTMDEV / SYSTEMS ONLINE</text>
+    <text x="48" y="150" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="78" font-weight="800" letter-spacing="2">GUSTAVO</text>
+    <rect x="48" y="170" width="560" height="4" rx="2" fill="url(#neon)" filter="url(#glow)"/>
+    <text x="50" y="218" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="21">AI SYSTEMS  •  AGENT INFRASTRUCTURE</text>
+    <text x="50" y="252" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="17">AUTOMATION  •  SOFTWARE ENGINEERING  •  SECURITY</text>
+    <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13">
+      <rect x="50" y="294" width="150" height="34" rx="7" fill="#0c1721" stroke="#164e63"/>
+      <text x="69" y="316" fill="#67e8f9">AGENTIC SYSTEMS</text>
+      <rect x="212" y="294" width="126" height="34" rx="7" fill="#151027" stroke="#4c1d95"/>
+      <text x="233" y="316" fill="#c4b5fd">AUTOMATION</text>
+      <rect x="350" y="294" width="138" height="34" rx="7" fill="#0c1721" stroke="#164e63"/>
+      <text x="371" y="316" fill="#67e8f9">LINUX / MACOS</text>
+      <rect x="500" y="294" width="126" height="34" rx="7" fill="#151027" stroke="#4c1d95"/>
+      <text x="521" y="316" fill="#c4b5fd">APPSEC</text>
+    </g>
+    <text x="50" y="374" fill="#64748b" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13">DESIGN → BUILD → OBSERVE → HARDEN → ITERATE</text>
+    <g stroke-linecap="round">
+      <path d="M780 92 L940 138 L1080 88 M940 138 L1040 252 M940 138 L810 260 M810 260 L1040 252 M1040 252 L1110 332 M810 260 L730 346"
+            fill="none" stroke="#263244" stroke-width="2"/>
+      <path d="M780 92 L940 138 L1040 252 L1110 332"
+            fill="none" stroke="url(#neon)" stroke-width="2.5" stroke-dasharray="9 15">
+        <animate attributeName="stroke-dashoffset" values="0;-96" dur="4s" repeatCount="indefinite"/>
+      </path>
+      <g fill="#0d1117" stroke="#00e5ff" stroke-width="2">
+        <circle cx="780" cy="92" r="15"/>
+        <circle cx="940" cy="138" r="23"/>
+        <circle cx="1080" cy="88" r="14"/>
+        <circle cx="810" cy="260" r="17"/>
+        <circle cx="1040" cy="252" r="18"/>
+        <circle cx="1110" cy="332" r="13"/>
+        <circle cx="730" cy="346" r="12"/>
+      </g>
+      <circle cx="940" cy="138" r="7" fill="#7c3aed" filter="url(#glow)">
+        <animate attributeName="r" values="6;10;6" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="5" fill="#00e5ff" filter="url(#glow)">
+        <animateMotion path="M780 92 L940 138 L1040 252 L1110 332" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <text x="902" y="104" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11">ORCHESTRATOR</text>
+      <text x="1012" y="285" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11">WORKER</text>
+    </g>
+    <rect y="0" width="1200" height="2" fill="url(#neon)"/>
+    <rect x="0" y="-70" width="1200" height="65" fill="#00e5ff" opacity=".028">
+      <animate attributeName="y" values="-70;430" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

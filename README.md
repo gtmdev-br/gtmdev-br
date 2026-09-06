@@ -1,139 +1,134 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00E5FF,100:7C3AED&height=210&section=header&text=GUSTAVO&fontSize=58&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=AI%20Systems%20%E2%80%A2%20Agents%20%E2%80%A2%20Automation%20%E2%80%A2%20Security&descAlignY=58&descSize=17"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2200&pause=700&color=00E5FF&center=true&vCenter=true&width=850&lines=Building+autonomous+AI+systems;Orchestrating+agents+across+macOS+%2B+Linux;Turning+complex+workflows+into+software;Exploring+responsible+security+research"/>
+<img width="100%" src="./assets/hero.svg" alt="Gustavo — AI systems and agent infrastructure" />
 
 <br>
 
-<img src="https://img.shields.io/badge/SYSTEM-ONLINE-00E5FF?style=for-the-badge&labelColor=0D1117">
-<img src="https://img.shields.io/badge/FOCUS-AI_SYSTEMS-7C3AED?style=for-the-badge&labelColor=0D1117">
-<img src="https://img.shields.io/badge/MODE-BUILDING-00E5FF?style=for-the-badge&labelColor=0D1117">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2200&pause=700&color=00E5FF&center=true&vCenter=true&width=900&lines=Building+autonomous+AI+systems;Designing+agent+infrastructure+across+macOS+%2B+Linux;Turning+complex+workflows+into+software;Responsible+security+research+%2F+scope-first" alt="Animated engineering focus" />
+
+<br>
+
+<img src="https://img.shields.io/badge/SYSTEM-ONLINE-00E5FF?style=for-the-badge&labelColor=0D1117" />
+<img src="https://img.shields.io/badge/FOCUS-AGENT_INFRASTRUCTURE-7C3AED?style=for-the-badge&labelColor=0D1117" />
+<img src="https://img.shields.io/badge/MODE-BUILD_%2F_TEST_%2F_ITERATE-00E5FF?style=for-the-badge&labelColor=0D1117" />
 
 </div>
 
 ---
 
-```console
-gtmdev@mac ~ % whoami
-
-> AI systems builder
-> automation developer
-> agent infrastructure researcher
-> software engineer
-```
-
 ## `> SYSTEM_PROFILE`
 
-I build systems where **AI agents, software and automation work together**.
+I design and build systems where **AI agents, software, infrastructure and automation operate as one stack**.
 
 ```text
-AI MODEL
-   │
-   ▼
-AGENT ─────► TOOLS
-   │
-   ├───────► APIs
-   │
-   ├───────► TERMINAL
-   │
-   └───────► SOFTWARE
+MODEL → AGENT → TOOLING → INFRASTRUCTURE → SOFTWARE → FEEDBACK
 ```
 
-Current areas of work:
+My work is centered on autonomous workflows, agent orchestration, developer tooling, operational automation, Linux systems and responsible security research.
 
-- Autonomous AI agents
-- Multi-agent orchestration
-- Software engineering automation
-- Business automation
-- Linux and remote agent infrastructure
-- Responsible security research
+The goal is simple: **make complex systems useful, observable and reliable**.
 
 ---
 
-## `> AI_LAB`
+## `> OPERATING_MODEL`
 
 ```text
-                  ┌──────────────────────┐
-                  │        macOS         │
-                  │    ORCHESTRATOR      │
-                  │                      │
-                  │ OpenCode · Codeman   │
-                  └──────────┬───────────┘
-                             │
-                         SSH / tmux
-                             │
-                  ┌──────────▼───────────┐
-                  │       Ubuntu         │
-                  │      AI WORKER       │
-                  │                      │
-                  │ OpenCode · Git       │
-                  └──────────────────────┘
+                     ┌────────────────────────────┐
+                     │       macOS CONTROL        │
+                     │  OpenCode · Codeman · Git  │
+                     └──────────────┬─────────────┘
+                                    │
+                              SSH / tmux
+                                    │
+                     ┌──────────────▼─────────────┐
+                     │       Ubuntu WORKER        │
+                     │   OpenCode · Git · Shell   │
+                     └──────────────┬─────────────┘
+                                    │
+                           build / test / report
 ```
+
+I care about boundaries between **orchestration, execution, state and observability**, not just whether an agent can produce a clever response once.
 
 ---
 
-## `> CURRENT_FOCUS`
+## `> ENGINEERING_DOMAINS`
 
 ```yaml
-ai:
+ai_systems:
   - autonomous-agents
-  - multi-agent-systems
-  - context-orchestration
+  - multi-agent-orchestration
+  - context-routing
   - llm-tooling
 
-engineering:
-  - automation
-  - backend-systems
-  - full-stack-development
-  - distributed-workers
+automation:
+  - business-processes
+  - developer-workflows
+  - system-integration
+  - remote-execution
+
+software:
+  - python
+  - typescript
+  - nextjs
+  - fastapi
+  - linux
 
 security:
   - web-security
   - api-security
-  - bug-bounty
+  - authentication
+  - business-logic
   - responsible-disclosure
 ```
 
 ---
 
-## `> SELECTED_PROJECTS`
+## `> SELECTED_WORK`
 
-### AdRadar
+<table>
+<tr>
+<td width="50%" valign="top">
 
-> AI-powered advertising intelligence infrastructure.
+### [`agent-ci`](https://github.com/gtmdev-br/agent-ci)
 
-`FastAPI` · `Next.js` · `SQLite` · `AI Analysis`
+CI/CD for agent configurations: validate, test and benchmark OpenCode profiles.
 
-```text
-COLLECT → ANALYZE → CLASSIFY → COMPARE → INTELLIGENCE
-```
+`TypeScript` `Agents` `CI/CD`
 
-### Jarvis / Ultron
+</td>
+<td width="50%" valign="top">
 
-> Experimental AI agent and computer-control infrastructure.
+### [`opencode-profiles`](https://github.com/gtmdev-br/opencode-profiles)
 
-`Python` · `Agents` · `Automation` · `Voice`
+Switch between specialized OpenCode agent personalities, MCP configurations and permission sets.
 
-```text
-VOICE → INTENT → AGENT → TOOL → EXECUTION
-```
+`Shell` `OpenCode` `Agent Config`
 
-### AI Supervisor
+</td>
+</tr>
 
-> Operational automation built around real business workflows.
+<tr>
+<td width="50%" valign="top">
 
-`AI` · `APIs` · `Automation` · `Operations`
+### [`agencia-agents`](https://github.com/gtmdev-br/agencia-agents)
 
-```text
-EVENTS → MONITOR → RULES → ALERTS → REPORTS
-```
+Agent-oriented automation experiments for operational workflows.
 
-### Multi-Agent Lab
+`Agents` `Automation` `Orchestration`
 
-> Isolated Linux AI workers controlled by a central macOS orchestrator.
+</td>
+<td width="50%" valign="top">
 
-`OpenCode` · `Linux` · `SSH` · `tmux` · `UTM`
+### [`aigen-protocol`](https://github.com/gtmdev-br/aigen-protocol)
+
+Exploratory infrastructure around agentic systems and interoperable AI workflows.
+
+`AI` `Protocols` `Infrastructure`
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -141,14 +136,14 @@ EVENTS → MONITOR → RULES → ALERTS → REPORTS
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,ts,js,nextjs,nodejs,fastapi,docker,linux,git,github,bash,vscode&perline=12">
+<img src="https://skillicons.dev/icons?i=python,ts,js,nextjs,nodejs,fastapi,docker,linux,git,github,bash,vscode&perline=12" alt="Technology stack" />
 
 <br><br>
 
-<img src="https://img.shields.io/badge/OpenCode-Agent_Infrastructure-00E5FF?style=flat-square&labelColor=0D1117">
-<img src="https://img.shields.io/badge/LLMs-Agentic_Systems-7C3AED?style=flat-square&labelColor=0D1117">
-<img src="https://img.shields.io/badge/UTM-Virtualization-00E5FF?style=flat-square&labelColor=0D1117">
-<img src="https://img.shields.io/badge/tmux-Remote_Workers-7C3AED?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/OpenCode-Agent_Infrastructure-00E5FF?style=flat-square&labelColor=0D1117" />
+<img src="https://img.shields.io/badge/LLMs-Agentic_Systems-7C3AED?style=flat-square&labelColor=0D1117" />
+<img src="https://img.shields.io/badge/UTM-Virtualization-00E5FF?style=flat-square&labelColor=0D1117" />
+<img src="https://img.shields.io/badge/tmux-Remote_Workers-7C3AED?style=flat-square&labelColor=0D1117" />
 
 </div>
 
@@ -156,19 +151,15 @@ EVENTS → MONITOR → RULES → ALERTS → REPORTS
 
 ## `> SECURITY_RESEARCH`
 
-Security research follows a **scope-first, responsible disclosure** approach.
+Security work follows an **authorization-first, scope-first, responsible disclosure** workflow.
 
 ```text
-DISCOVER
-   ↓
-VALIDATE
-   ↓
-DOCUMENT
-   ↓
-DISCLOSE
+SCOPE → RECON → VALIDATE → DOCUMENT → DISCLOSE
 ```
 
 `Web Security` · `API Security` · `Authentication` · `Business Logic` · `Bug Bounty`
+
+No mystery theatrics. Clear scope, reproducible evidence, useful reports.
 
 ---
 
@@ -176,22 +167,43 @@ DISCLOSE
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=gtmdev-br&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00E5FF&icon_color=7C3AED&text_color=C9D1D9">
+<img width="96%" src="./assets/metrics.svg" alt="GitHub public telemetry" />
 
-<img height="170" src="https://streak-stats.demolab.com?user=gtmdev-br&hide_border=true&background=0D1117&ring=00E5FF&fire=7C3AED&currStreakLabel=00E5FF&sideLabels=C9D1D9&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF">
+<br><br>
 
-<br>
-
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=gtmdev-br&bg_color=0D1117&color=C9D1D9&line=00E5FF&point=7C3AED&area=true&hide_border=true">
+<img src="https://streak-stats.demolab.com?user=gtmdev-br&hide_border=true&background=0D1117&ring=00E5FF&fire=7C3AED&currStreakLabel=00E5FF&sideLabels=C9D1D9&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub streak" />
 
 </div>
+
+> `metrics.svg` is generated from GitHub's public API and refreshed automatically by GitHub Actions.
+
+---
+
+## `> ENGINEERING_PRINCIPLES`
+
+```python
+while system.has_bottleneck():
+    observe()
+    reduce_ambiguity()
+    simplify()
+    automate()
+    test()
+    measure()
+    iterate()
+```
+
+- Prefer **systems over demos**
+- Prefer **observable behavior over cleverness**
+- Prefer **clear interfaces over hidden coupling**
+- Prefer **reproducible results over impressive screenshots**
+- Automate only after understanding the process being automated
 
 ---
 
 <div align="center">
 
-### `BUILD → TEST → BREAK → UNDERSTAND → IMPROVE`
+### `DESIGN → BUILD → OBSERVE → HARDEN → ITERATE`
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:00E5FF,100:0D1117&height=110&section=footer">
+<sub>AI systems · agent infrastructure · automation · software engineering · responsible security research</sub>
 
 </div>
